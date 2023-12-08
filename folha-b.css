@@ -1,0 +1,105 @@
+/* Re: Apache not updating files
+Sometimes you have to clear the cache within the browser to get the updated page to load correctly. 
+It can be a pain if you are making a lot of small changes. The alternative is to use 4 browsers: 
+opera, chrome, chromium, firefox, and rotate between them for each update. 
+
+Answer: Usar o modo de navegação privado.
+*/
+
+/* Navegador */
+.div-nav {
+    height: 20px;
+    width: auto;
+    padding: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background-color: orange;
+}
+
+a {
+    padding-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Árvore, se alguém mexer aqui vai acabar por meter água. */
+
+.div-main {
+    padding: 40px;
+    width: 80% auto;
+    height: 100% auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 95% auto;
+    height: 100% auto;
+    position: absolute;
+}
+
+.exibir {
+    flex: 0 0 15%;
+    box-sizing: border-box;
+    border: 2.5px solid orange;
+    margin: 20px 8px;
+}
+
+/* Painel de controlo do dispensador. */
+
+.esquerdo {
+    width: 280px;
+    height: 400px auto;
+}
+
+.direito {
+    display: grid;
+    width: 520px;
+    height: 400px auto;
+}
+
+.esquerdo img {
+    float: right;
+    margin-bottom: 40px;
+}
+
+/* Propriedades de todos os formulários. */
+
+form {
+    border: 0px solid gray;
+    max-width: 60%;
+}
+
+iframe {
+    width: 600px;
+    height: 400px;
+    margin-top: 10px;
+    margin-left: 20%;
+    border-radius: 2%;
+    border: 1px solid gray;
+    align-content: space-around;
+}
+
+textarea {
+    resize: none;
+    width: 400px;
+}
+
+/* Propriedades das imagens da galeria. */
+
+img {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 40px;
+    max-width: 60%;
+    max-height: 60%;
+}
+
+.apagar {
+    margin-right: 40px;
+    margin-bottom: 0px;
+    width: 30px;
+    height: 30px;
+}
